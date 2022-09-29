@@ -1,9 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import MyImage from "../../public/images/MyImage.jpg";
-import Image from "next/image";
-
 const BackgroundCircles: React.FC = () => {
   return (
     <div className="relative flex justify-center items-center mt-36">
