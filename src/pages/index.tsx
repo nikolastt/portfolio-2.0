@@ -10,14 +10,14 @@ import Skills from "../components/Skills";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-secondary-500 h-screen text-white snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-primary-500">
+    <div className="bg-secondary-500 h-screen text-white snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-primary-500 overflow-x-hidden">
       <Head>
         <title>Nikolas Portfolio</title>
       </Head>
 
       <Header />
 
-      <section id="hero" className="snap-center">
+      <section id="hero" className="snap-center ">
         <Hero />
       </section>
 

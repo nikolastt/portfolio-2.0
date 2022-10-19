@@ -35,7 +35,7 @@ const About: React.FC = () => {
           x: 0,
         }}
         viewport={{ once: false }}
-        className="w-56 h-56 relative flex-shrink-0  md:mb-0 md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        className="w-36 h-36 relative flex-shrink-0  md:mb-0 md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       >
         <Image
           src={MyImageSunrise}
@@ -47,9 +47,9 @@ const About: React.FC = () => {
 
       <div className="px-0 md:px-10 space-y-10">
         <h4 className="text-3xl font-semibold">
-          Here is a{" "}
-          <span className="underline decoration-primary-500">little</span>{" "}
-          background
+          Este é um{" "}
+          <span className="underline decoration-primary-500">pequeno</span>{" "}
+          overview
         </h4>
 
         <p className="text-sm ">
@@ -57,14 +57,7 @@ const About: React.FC = () => {
           eos explicabo expedita nesciunt ipsam accusantium tempora. Vel
           sapiente accusantium necessitatibus autem, odio aliquid voluptatibus
           voluptates doloremque deserunt nostrum et! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Vitae, minima? Animi iusto corporis
-          officiis tempore quibusdam ut incidunt suscipit doloremque omnis dolor
-          eos repellat aspernatur, at deserunt accusamus maiores nam. Illo
-          provident dolorum iusto natus voluptatibus ipsum, minus saepe incidunt
-          sed accusamus quam sunt error laboriosam omnis cumque, molestiae nemo.
-          Molestias amet esse molestiae. Alias voluptates maiores corrupti id
-          accusantium. Corrupti eius, voluptas enim iure, laboriosam voluptate
-          praesentium aperiam commodi vitae asperiores at.
+          consectetur adipisicing elit. Vitae, minima.
         </p>
       </div>
     </motion.div>

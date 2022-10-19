@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   const [text, count] = useTypewriter({
     words: [
       "HI, meu nome é Nikolas Bitencourt",
-      "loves-coffee.tsx",
+      "like-coffe.tsx",
       "<AndLovesToCode />",
     ],
     loop: true,

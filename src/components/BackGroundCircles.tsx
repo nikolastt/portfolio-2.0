@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const BackgroundCircles: React.FC = () => {
   return (
-    <div className="relative flex justify-center items-center mt-36">
+    <div className="relative flex justify-center items-center mt-36 ">
       <motion.div
         initial={{
           scale: 0,
